@@ -1,0 +1,31 @@
+{
+	"images":
+	[
+	  {
+      "file_name": "000007424363.png",
+      "id": 7424363,
+      "figure_type": "Graph Plot",
+      "ocr": [
+        ""
+      ]
+    }
+	] ,
+  
+   "annotations":
+	[
+	  {
+      "image_id": 7424363,
+      "id": 8492163,
+      "caption": "Fig. 1. The coefficient of Pe2 in the small-Pe optimal enhancement (32) with n = 1 (first zero). The optimal enhancement is achieved for m = 2, then drops off slowly.",
+      "caption_no_index": "The coefficient of Pe2 in the small-Pe optimal enhancement (32) with n =  (first zero). The optimal enhancement is achieved for m = 2, then drops off slowly.",
+      "paragraph": [
+        "Since j m,n increases monotonically with n, we must take n = 1 to minimize T . Thus the optimal streamlines pattern displays a single cell in the radial direction. It is then a simple matter of enumerating the zeros j m,1 to find that the integrated mean exit time is minimized for (m, n) = (2, 1), independent of the P\u00e9clet number (see Figure 1). The streamline and mean exit time patterns are illustrated in Figure 2."
+      ],
+      "mention": [
+        [
+          "It is then a simple matter of enumerating the zeros j m,1 to find that the integrated mean exit time is minimized for (m, n) = (2, 1), independent of the P\u00e9clet number (see Figure 1)."
+        ]
+      ]
+    }
+	]
+	}
