@@ -1,10 +1,25 @@
 # The 1st Scientific Figure Captioning (SciCap) Challenge
 
-Welcome to the 1st Scientific Figure Captioning (SciCap) Challenge! This challenge brings fun to the world of research, AI, NLP, and CV. It's your chance to participate in building computational models for generating useful text for visuals. The challenge will be hosted in the 5th Workshop on Closing the Loop Between Vision and Language at ICCV 2023 (Paris, France) and has *cash prizes* up for grabs!
+Welcome to the 1st Scientific Figure Captioning (SciCap) Challenge! This challenge brings fun and innovation to the world of research, AI, NLP, and CV by combining these fields to create computational models for generating useful text for visuals. Hosted in the 5th Workshop on Closing the Loop Between Vision and Language at ICCV 2023 (Paris, France), the SciCap Challenge features *cash prizes* for the best-performing models!
 
-Get ready to play with a whopping 400,000 scientific figure images from various arXiv papers and their corresponding captions and relevant paragraphs. The game is simple; use these data to build models that generate captions for these images.
+You'll have access to an astounding 400,000 scientific figure images from various arXiv papers, along with their respective captions and relevant paragraphs. Your mission is to leverage this data to build models capable of generating accurate and informative captions for these images.
 
-## Important Dates
+## Challenge Structure 🚀
+
+The challenge follows a two-phase structure: the **Test Phase** and the **Challenge Phase**.
+
+- **Test Phase**: Lasts approx. 2.5 months, where you build and test models using the provided training set, validation set, and **public test set**.
+- **Challenge Phase**: Takes place over the final 2 weeks before the submission deadline. A **hidden test set** is released, and you'll submit your results for this set.
+
+Winning teams will be determined based on their best results for the hidden test set.
+
+
+## Evaluation Code
+
+[Scicap_evaluation.ipynb](Scicap_evaluation.ipynb)
+
+
+## Important Dates 🗓️
 
 - SciCap Challenge launches: May 29, 2023
 - Test Phase begins: May 29, 2023, 12:00 AM (CST)
@@ -14,16 +29,15 @@ Get ready to play with a whopping 400,000 scientific figure images from various 
 - Challenge result notification: September 6, 2023
 - Workshop date: TBA
 
-# Evaluation Code
+## Prizes and Recognition 🏆
 
-[Scicap_evaluation.ipynb](Scicap_evaluation.ipynb)
+There will be two cash prize winners:
 
-## Prizes 🎉
+1. **Leaderboard Winner ($300 USD)** - The team with the highest automatic evaluation score across the entire hidden test set.
+2. **Quality Winner ($300 USD)** - The team with the best automatic evaluation score from a human-curated subset of the hidden test set containing higher-quality captions.
 
-There will be two winners: the **Leaderboard Winner ($300 USD)** (highest automatic evaluation score across the entire hidden test set) and the **Quality Winner ($300 USD)** (best automatic evaluation score from a human-curated subset of the hidden test set that contains higher-quality captions).
+Are you excited to join the 1st SciCap Challenge? Then head over to the [challenge page](https://github.com/Crowd-AI-Lab/figure-captioning-challenge) to find all the information you need to participate, including data, code, baselines, evaluation criteria, and important dates. Don't forget to submit your results to [Eval.AI](https://eval.ai/web/challenges/challenge-page/2012/overview) before the deadline and provide a report (2-4 pages) detailing your system using the ICCV 2023 paper template.
 
-So, are you ready to join the fun in the 1st SciCap Challenge? Head over to the [challenge page](https://github.com/Crowd-AI-Lab/figure-captioning-challenge), grab the data, and dive into the action! Remember to submit your results to [Eval.AI](https://eval.ai/web/challenges/challenge-page/2012/overview) before the deadline and provide a report (2-4 pages) detailing your system using the ICCV 2023 paper template.
+For any questions about the challenge, feel free to email the organizers at [**scicap-challenge@googlegroups.com**](mailto:scicap-challenge%40googlegroups.com).
 
-For questions about the challenge, feel free to email us at [**scicap-challenge@googlegroups.com**](mailto:scicap-challenge%40googlegroups.com).
-
-Good luck, and may the best captioning model win! 🏆
+Best of luck! We can't wait to see your innovative and groundbreaking captioning models! 🌟
