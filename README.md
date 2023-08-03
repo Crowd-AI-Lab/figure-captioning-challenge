@@ -20,13 +20,15 @@ Please follow the instructions on [SciCap.AI](http://scicap.ai/) to download the
 Put all the json files under `scicap-data/` folder.
 
 Install the required package. 
-`pip install -r requirements.txt`
-
+```
+pip install -r requirements.txt
+```
 Note: Python version >=3.6, <= 3.9
 
 Run the baseline code:
-`bash train.sh`
-
+```
+bash train.sh
+```
 Note: Our baseline code is based on [huggingface summarization](https://github.com/huggingface/transformers/tree/main/examples/pytorch/summarization). We only use text for fine-tuning. You can adapt this script on your own need.
 
 ## Evaluation Code
