@@ -14,6 +14,18 @@ The challenge follows a two-phase structure: the **Test Phase** and the **Challe
 Winning teams will be determined based on their best results for the hidden test set.
 
 
+## Baseline Code
+
+Please follow the instructions on [SciCap.AI]((http://scicap.ai/)) to download the dataset and put all the json files under `scicap-data/` folder.
+
+Install the required package. 
+`pip install -r requirements.txt`
+Note: Python version >=3.6, <= 3.9
+
+Run the baseline code:
+`bash train.sh`
+Note: Our baseline code is based on [huggingface summarization](https://github.com/huggingface/transformers/tree/main/examples/pytorch/summarization). You can adapt this script on your own need.
+
 ## Evaluation Code
 
 [Scicap_evaluation.ipynb](Scicap_evaluation.ipynb)
